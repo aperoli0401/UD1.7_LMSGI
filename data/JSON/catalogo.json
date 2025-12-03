@@ -1,0 +1,198 @@
+{
+    "catalog": {
+        "header": {
+        "logo": {
+            "src": "logo.png",
+            "alt": "logo"
+        },
+        "navigation": {
+            "link": [
+            { "href": "catalogo.html", "text": "Inicio" },
+            { "href": "coches.html", "text": "Coches" },
+            { "href": "motos.html", "text": "Motos" },
+            { "href": "bicicletas.html", "text": "Bicicletas" },
+            { "href": "contacto.html", "text": "Contacto" }
+            ]
+        }
+        },
+        "pageTitle": "Coches",
+        "brands": { 
+        "brand": [
+            {
+            "id": "chevrolet",
+            "name": "Chevrolet",
+            "brandLogo": {
+                "src": "chevrolet.png",
+                "alt": "logo_chevrolet"
+            },
+            "model": [
+                {
+                "id": "corvette-c5",
+                "class": "corvette",
+                "image": { "src": "corvette.webp", "alt": "foto_corvette" },
+                "title": "Corvette C5",
+                "description": "El Corvette C5 es un vehículo americano.",
+                "price": "10000$ - 89000$"
+                },
+                {
+                "id": "camaro",
+                "class": "camaro",
+                "image": { "src": "camaro.webp", "alt": "foto_camaro" },
+                "title": "Camaro",
+                "description": "Descripción del Camaro.",
+                "price": "10"
+                },
+                {
+                "id": "silverado",
+                "class": "silverado",
+                "image": { "src": "silverado.jpeg", "alt": "foto_silverado" },
+                "title": "Silverado",
+                "description": "Descripción del Silverado.",
+                "price": "67"
+                }
+            ]
+            },
+
+            {
+            "id": "ferrari",
+            "name": "Ferrari",
+            "brandLogo": {
+                "src": "ferrari.png",
+                "alt": "logo_ferrari"
+            },
+            "model": [
+                {
+                "id": "laferrari",
+                "class": "laferrari",
+                "image": { "src": "laferrari.jpeg", "alt": "foto_LaFerrari" },
+                "title": "LaFerrari",
+                "description": "Descripción de LaFerrari.",
+                "price": "--"
+                },
+                {
+                "id": "ferrari-488",
+                "class": "ferrari488",
+                "image": { "src": "ferrari488.jpeg", "alt": "foto_ferrari488" },
+                "title": "Ferrari 488",
+                "description": "Descripción Ferrari 488.",
+                "price": "--"
+                },
+                {
+                "id": "ferrari-512",
+                "class": "ferrari512",
+                "image": { "src": "ferrari512.jpeg", "alt": "foto_ferrari512" },
+                "title": "Ferrari 512",
+                "description": "Descripción Ferrari 512.",
+                "price": "--"
+                }
+            ]
+            },
+
+            {
+            "id": "mercedes",
+            "name": "Mercedes",
+            "brandLogo": {
+                "src": "mercedes.jpeg",
+                "alt": "logo_mercedes"
+            },
+            "model": [
+                {
+                "id": "benz",
+                "class": "benz",
+                "image": { "src": "benz.jpeg", "alt": "foto_benz" },
+                "title": "Benz",
+                "description": "Descripción Benz.",
+                "price": "--"
+                },
+                {
+                "id": "amg-45",
+                "class": "amg",
+                "image": { "src": "amg 45.jpeg", "alt": "foto_amg" },
+                "title": "AMG 45",
+                "description": "Descripción AMG.",
+                "price": "--"
+                },
+                {
+                "id": "clase-g",
+                "class": "g",
+                "image": { "src": "claseg.jpeg", "alt": "foto_g" },
+                "title": "Clase G",
+                "description": "Descripción Clase G.",
+                "price": "--"
+                }
+            ]
+            },
+
+            {
+            "id": "volkswagen",
+            "name": "Volkswagen",
+            "brandLogo": {
+                "src": "volkwagen.jpeg",
+                "alt": "logo_volkswagen"
+            },
+            "model": [
+                {
+                "id": "polo",
+                "class": "polo",
+                "image": { "src": "polo.jpeg", "alt": "foto_polo" },
+                "title": "Polo",
+                "description": "Descripción Polo.",
+                "price": "--"
+                },
+                {
+                "id": "golf",
+                "class": "golf",
+                "image": { "src": "golf-mk1.jpeg", "alt": "foto_golf" },
+                "title": "Golf",
+                "description": "Descripción Golf.",
+                "price": "--"
+                },
+                {
+                "id": "t-roc",
+                "class": "t",
+                "image": { "src": "t-roc.jpeg", "alt": "foto_t" },
+                "title": "T-Roc",
+                "description": "Descripción T-Roc.",
+                "price": "--"
+                }
+            ]
+            },
+
+            {
+            "id": "porsche",
+            "name": "Porsche",
+            "brandLogo": {
+                "src": "porsche.jpeg",
+                "alt": "logo_porsche"
+            },
+            "model": [
+                {
+                "id": "cayman",
+                "class": "cayman",
+                "image": { "src": "cayman.jpeg", "alt": "foto_cayman" },
+                "title": "Cayman",
+                "description": "Descripción Cayman.",
+                "price": "--"
+                },
+                {
+                "id": "cayenne",
+                "class": "cayenne",
+                "image": { "src": "cayenne.jpeg", "alt": "foto_cayenne" },
+                "title": "Cayenne",
+                "description": "Descripción Cayenne.",
+                "price": "--"
+                },
+                {
+                "id": "carrera",
+                "class": "carrera",
+                "image": { "src": "carrera.jpeg", "alt": "foto_carrera" },
+                "title": "Carrera",
+                "description": "Descripción Carrera.",
+                "price": "--"
+                }
+            ]
+            }
+        ]
+        }
+    }
+}
