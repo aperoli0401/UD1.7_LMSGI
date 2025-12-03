@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="coches.xsl"?>
+
+<!--este codigo esta en porceso por eso algunos atributos estan vacio, tambien faltan por añadir algunos articulos mas pero la base no se va a modificar por tanto lo que falta es solo rellenar los huecos vacios y terminar de poner el resto de articulos-->
+
+<catalog>
+  <header>
+    <logo src="logo.png" alt="logo"/> <!--se coloca el logo que ya tenemos-->
+    <navigation> <!--se reescribe el nav del html-->
+      <link href="catalogo.html">Inicio</link> <!--link seria lo mismo que el a en el nav-->
+      <link href="coches.html">Coches</link>
+      <link href="motos.html">Motos</link>
+      <link href="bicicletas.html">Bicicletas</link>
+      <link href="contacto.html">Contacto</link>
+    </navigation>
+  </header>
+
+  <pageTitle>Coches</pageTitle>
+
+  <brands> <!--brands para acceder a cada marca-->
+
+    <brand id="chevrolet" name="Chevrolet"> <!--aqui se especiffica a que marcaa queremos acceder-->
+      <brandLogo src="chevrolet.png" alt="logo_chevrolet"/> <!--se accede al logo de la marca-->
+      <model id="corvette-c5" class="corvette"> <!--se accede al modelo de la marca-->
+        <image src="corvette.webp" alt="foto_corvette"/>
+        <title>Corvette C5</title>
+        <description>El Corvette C5 es un vehículo americano.</description>
+        <price>10000$ - 89000$</price>
+      </model>
+      <model id="camaro" class="camaro">
+        <image src="camaro.webp" alt="foto_camaro"/>
+        <title>Camaro</title>
+        <description>Descripción del Camaro.</description>
+        <price>10</price>
+      </model>
+      <model id="silverado" class="silverado">
+        <image src="silverado.jpeg" alt="foto_silverado"/>
+        <title>Silverado</title>
+        <description>Descripción del Silverado.</description>
+        <price>67</price>
+      </model>
+    </brand>
+
+    <brand id="ferrari" name="Ferrari">
+      <brandLogo src="ferrari.png" alt="logo_ferrari"/>
+      <model id="laferrari" class="laferrari">
+        <image src="laferrari.jpeg" alt="foto_LaFerrari"/>
+        <title>LaFerrari</title>
+        <description>Descripción de LaFerrari.</description>
+        <price>--</price> <!--en este caso al no estar especificado un precio se escribe el guion, se debe cambiar-->
+      </model>
+      <model id="ferrari-488" class="ferrari488">
+        <image src="ferrari488.jpeg" alt="foto_ferrari488"/>
+        <title>Ferrari 488</title>
+        <description>Descripción Ferrari 488.</description>
+        <price>--</price>
+      </model>
+      <model id="ferrari-512" class="ferrari512">
+        <image src="ferrari512.jpeg" alt="foto_ferrari512"/>
+        <title>Ferrari 512</title>
+        <description>Descripción Ferrari 512.</description>
+        <price>--</price>
+      </model>
+    </brand>
+
+    <brand id="mercedes" name="Mercedes">
+      <brandLogo src="mercedes.jpeg" alt="logo_mercedes"/>
+      <model id="benz" class="benz">
+        <image src="benz.jpeg" alt="foto_benz"/>
+        <title>Benz</title>
+        <description>Descripción Benz.</description>
+        <price>--</price>
+      </model>
+      <model id="amg-45" class="amg">
+        <image src="amg 45.jpeg" alt="foto_amg"/>
+        <title>AMG 45</title>
+        <description>Descripción AMG.</description>
+        <price>--</price>
+      </model>
+      <model id="clase-g" class="g">
+        <image src="claseg.jpeg" alt="foto_g"/>
+        <title>Clase G</title>
+        <description>Descripción Clase G.</description>
+        <price>--</price>
+      </model>
+    </brand>
+
+    <brand id="volkswagen" name="Volkswagen">
+      <brandLogo src="volkwagen.jpeg" alt="logo_volkswagen"/>
+      <model id="polo" class="polo">
+        <image src="polo.jpeg" alt="foto_polo"/>
+        <title>Polo</title>
+        <description>Descripción Polo.</description>
+        <price>--</price>
+      </model>
+      <model id="golf" class="golf">
+        <image src="golf-mk1.jpeg" alt="foto_golf"/>
+        <title>Golf</title>
+        <description>Descripción Golf.</description>
+        <price>--</price>
+      </model>
+      <model id="t-roc" class="t">
+        <image src="t-roc.jpeg" alt="foto_t"/>
+        <title>T-Roc</title>
+        <description>Descripción T-Roc.</description>
+        <price>--</price>
+      </model>
+    </brand>
+
+    <brand id="porsche" name="Porsche">
+      <brandLogo src="porsche.jpeg" alt="logo_porsche"/>
+      <model id="cayman" class="cayman">
+        <image src="cayman.jpeg" alt="foto_cayman"/>
+        <title>Cayman</title>
+        <description>Descripción Cayman.</description>
+        <price>--</price>
+      </model>
+      <model id="cayenne" class="cayenne">
+        <image src="cayenne.jpeg" alt="foto_cayenne"/>
+        <title>Cayenne</title>
+        <description>Descripción Cayenne.</description>
+        <price>--</price>
+      </model>
+      <model id="carrera" class="carrera">
+        <image src="carrera.jpeg" alt="foto_carrera"/>
+        <title>Carrera</title>
+        <description>Descripción Carrera.</description>
+        <price>--</price>
+      </model>
+    </brand>
+  
+  </brands>
+</catalog>
